@@ -28,6 +28,9 @@ a {
   font-size: 24px;
   font-weight: 400;
 }
+.menu {
+  display: none;
+}
 hr {
   margin-top: 10px;
 }
@@ -56,6 +59,22 @@ hr {
 #hero {
   background: url("./images/header1212.png") no-repeat left/cover;
   height: 40vh;
+}
+.hero button select {
+  color: #2a254b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  outline: none;
+  border: none;
+  background: var(--Light-Grey, #f9f9f9);
+}
+.hero button {
+  padding: 15px 30px;
+  background: var(--Light-Grey, #f9f9f9);
+  display: none;
+  border: none;
+  margin: 0 10px;
 }
 /* HERO END*/
 
@@ -101,6 +120,11 @@ hr {
   margin: 10px 0;
 }
 .image1 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image01 {
   padding-top: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -184,4 +208,5 @@ input {
   font-size: 20px;
   margin: 0 6px;
 }
+
 /* FOOTER END */
